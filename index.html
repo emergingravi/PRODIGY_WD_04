@@ -1,0 +1,168 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/77afe04c03.js" crossorigin="anonymous"></script> 
+  </head>
+  <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Portfolio.png" class="logo">
+                <ul id="sidebar">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi , i'm <span>Ravi</span> <br> From Nepal.</h1>
+                <p style="color: rgb(175, 250, 0);font-size: 40px;font-weight: 400;">UI/UX Designer</p>
+                <p style="color: rgb(44, 255, 139);font-size: 40px;font-weight: 400;"><b>D</b>eveloper</P>
+                <a href="images/my-cv.pdf" download class="button btn2">Downlaod  CV</a>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pp.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eaque repellat praesentium et, sed blanditiis velit ipsam dolorum deleniti consequatur odio optio molestias eligendi? Laborum iusto quia in enim ullam?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui dolore alias excepturi blanditiis numquam, quos officia aliquam ex porro reiciendis, maiores nobis non ad amet fugiat magnam, enim sit totam.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>App Development</span><br>Building Andriod/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Beginner Level</span><br>front-end</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>upto SEE </span><br>Monastic H.S.E.B.School , Janakpur</li>
+                            <li><span>10 + 2</span><br>Capital College and Research Center , kathmandu</li>
+                            <li><span>Bachelor(BSC.CSIT)</span><br>currently running...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------service------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, quam! Sequi est maiores iusto. Quidem, iste. Laboriosam perferendis reprehenderit accusantium, corrupti nostrum delectus eveniet eum id sunt earum, optio iure.
+                      <br><a href="#">Learn more</a>
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, quam! Sequi est maiores iusto. Quidem, iste. Laboriosam perferendis reprehenderit accusantium, corrupti nostrum delectus eveniet eum id sunt earum, optio iure.
+                        <br><a href="#">Learn more</a>
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, quam! Sequi est maiores iusto. Quidem, iste. Laboriosam perferendis reprehenderit accusantium, corrupti nostrum delectus eveniet eum id sunt earum, optio iure.
+                        <br><a href="#">Learn more</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. odit beatae vitae eos, atque error consectetur labore reiciendis nobis ipsam aliquid molestiae odio totam maxime corporis minus quod?</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Event Management app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dignissimos? Porro odit beatae vitae eos, atque error consectetur labore reiciendis nobis ipsam aliquid molestiae odio totam maxime corporis minus quod?</p>
+                    <a href="#"><i class="fa-regular fa-calendar-days"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dignissimos? Porro odit beatae vitae eos, atque error consectetur labore reiciendis nobis ipsam aliquid molestiae odio totam maxime corporis minus quod?</p>
+                    <a href="#"><i class="fa-solid fa-music"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="button">See more</a>
+    </div>
+</div>
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i></i> ravi.prince.7374@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone" ></i> +977-9812174843</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100059997380813"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ravisah028/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/emergingravi"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ravi-shankar-sah-14b447265"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="button btn2">Downlaod  CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="5" placeholder=" Your Message"></textarea>
+                    <button type="submit" class="button btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> ravi. | Web development / Portfolio Sample </p>
+    </div>
+</div>
+    <script src="index.js"></script>
+  </body>
+  </html>
