@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background:#000000;
+    background:#114161;
     color: #fff;
 }
 #header {
@@ -122,7 +122,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #752424;
+    color: #50f840;
     font-size: 14px;
 }
 .tab-contents{
@@ -144,7 +144,7 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 .services-list div{
-    background-color: rgb(50, 46, 46);
+    background-color: rgb(24, 22, 22);
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -155,20 +155,19 @@ nav ul li a:hover::after{
     font-size: 50px;
     margin-bottom: 20px;
 }
-.services-list div h2{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
+
 .services-list div a{
     text-decoration: none;
-    color: #df7474;
+    color: #74df9d;
     font-size: 12px;
     margin-top: 10px; 
     display: inline-block;
 }
+.services-list div p{
+    text-align: left;
+}
 .services-list div:hover{
-    background-color: #ed3f3f;
+    background-color: #2b5abe;
     transform: translateY(-10px);
 }
 /* portfolio */
@@ -235,14 +234,14 @@ p{
     transform: scale(1.5);
 }
 .work:hover .layer{
-    height: 90%;
+    height: 60%;
 }
 .button{
     display: block;
     margin: 50px auto;
     width: fit-content;
     border-radius: 6px;
-    border: 1px solid red;
+    border: 1px solid rgb(219, 208, 208);
     padding: 14px 50px;
     text-decoration: none;
     color:#fff;
@@ -359,7 +358,9 @@ nav .fa-solid{
 
     }
     .subtitle{
-        font-size: 40px;
+        font-size: 50px;
+        margin: auto;
+        text-align: center;
     }
     .about-col-1 ,.about-col-2{
         flex-basis: 100%;
